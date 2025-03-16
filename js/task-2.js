@@ -26,9 +26,6 @@ const images = [
 ];
 
 const gallery = document.querySelector(".gallery");
-gallery.style.display = "flex";
-gallery.style.gap = "10px";
-gallery.style.listStyle = "none";
 
 gallery.insertAdjacentHTML(
   "beforeend",
